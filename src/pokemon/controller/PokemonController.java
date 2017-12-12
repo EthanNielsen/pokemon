@@ -1,4 +1,4 @@
-package pokemon.constructor;
+package pokemon.controller;
 
 public class PokemonController 
 {
