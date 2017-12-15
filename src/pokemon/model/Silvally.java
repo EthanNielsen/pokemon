@@ -1,9 +1,9 @@
 package pokemon.model;
 
-public class Synthetic extends Silvally implements Null
+public class Silvally extends Pokemon implements Null
 {
-	
-	public Synthetic(int number, String name)
+
+	public Silvally(int number, String name)
 	{
 		super(number, name);
 	}
