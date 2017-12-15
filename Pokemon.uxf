@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>10</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>10</y>
-      <w>250</w>
-      <h>90</h>
+      <x>440</x>
+      <y>0</y>
+      <w>200</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Ghost/
 --
@@ -24,10 +24,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>910</x>
-      <y>110</y>
-      <w>250</w>
-      <h>360</h>
+      <x>672</x>
+      <y>80</y>
+      <w>200</w>
+      <h>288</h>
     </coordinates>
     <panel_attributes>/package.model :: Pokemon/
 --
@@ -48,10 +48,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>70</x>
-      <y>60</y>
-      <w>250</w>
-      <h>80</h>
+      <x>0</x>
+      <y>40</y>
+      <w>200</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>Pokemon Project Design
 Ethan Nielsen
@@ -63,10 +63,10 @@ bg=cyan
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>70</x>
-      <y>160</y>
-      <w>250</w>
-      <h>150</h>
+      <x>0</x>
+      <y>120</y>
+      <w>200</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>package :: Classname
 --
@@ -80,10 +80,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1200</x>
-      <y>10</y>
-      <w>250</w>
-      <h>90</h>
+      <x>904</x>
+      <y>0</y>
+      <w>200</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Null/
 --
@@ -100,10 +100,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>70</x>
-      <y>320</y>
-      <w>250</w>
-      <h>90</h>
+      <x>0</x>
+      <y>248</y>
+      <w>200</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>/package :: AbstractClass of Interface/
 --
@@ -117,10 +117,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>70</x>
-      <y>780</y>
-      <w>250</w>
-      <h>90</h>
+      <x>0</x>
+      <y>616</y>
+      <w>200</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Derpable/
 --
@@ -137,10 +137,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1200</x>
-      <y>120</y>
-      <w>250</w>
-      <h>110</h>
+      <x>904</x>
+      <y>88</y>
+      <w>200</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>pokemon.model :: Synthetic
 --
@@ -156,10 +156,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>630</x>
-      <y>510</y>
-      <w>250</w>
-      <h>90</h>
+      <x>448</x>
+      <y>400</y>
+      <w>200</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Psychic/
 --
@@ -176,10 +176,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>860</x>
-      <y>170</y>
-      <w>70</w>
-      <h>30</h>
+      <x>632</x>
+      <y>128</y>
+      <w>56</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
@@ -187,10 +187,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1150</x>
-      <y>180</y>
-      <w>70</w>
-      <h>30</h>
+      <x>864</x>
+      <y>136</y>
+      <w>56</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
@@ -198,10 +198,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1220</x>
-      <y>90</y>
-      <w>30</w>
-      <h>50</h>
+      <x>920</x>
+      <y>64</y>
+      <w>24</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
@@ -209,10 +209,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>910</x>
-      <y>510</y>
-      <w>250</w>
-      <h>110</h>
+      <x>672</x>
+      <y>400</y>
+      <w>200</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>pokemon.model :: Mewtwo
 --
@@ -228,10 +228,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>930</x>
-      <y>460</y>
-      <w>30</w>
-      <h>70</h>
+      <x>688</x>
+      <y>360</y>
+      <w>24</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -239,10 +239,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>870</x>
-      <y>540</y>
-      <w>60</w>
-      <h>30</h>
+      <x>640</x>
+      <y>424</y>
+      <w>48</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
@@ -250,10 +250,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>910</x>
-      <y>630</y>
-      <w>250</w>
-      <h>110</h>
+      <x>672</x>
+      <y>496</y>
+      <w>200</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>pokemon.model :: Beheeyem
 --
@@ -269,10 +269,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>910</x>
-      <y>750</y>
-      <w>250</w>
-      <h>110</h>
+      <x>672</x>
+      <y>592</y>
+      <w>200</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>pokemon.model :: Mr.Mime
 --
@@ -288,10 +288,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>120</y>
-      <w>250</w>
-      <h>110</h>
+      <x>440</x>
+      <y>88</y>
+      <w>200</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>pokemon.model :: Giratina
 --
@@ -307,10 +307,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>250</y>
-      <w>250</w>
-      <h>110</h>
+      <x>440</x>
+      <y>192</y>
+      <w>200</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>pokemon.model :: Palossand
 --
@@ -326,10 +326,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>860</x>
-      <y>300</y>
-      <w>70</w>
-      <h>30</h>
+      <x>632</x>
+      <y>232</y>
+      <w>56</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
@@ -337,10 +337,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>900</x>
-      <y>460</y>
-      <w>40</w>
-      <h>350</h>
+      <x>664</x>
+      <y>360</y>
+      <w>32</w>
+      <h>280</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>20.0;10.0;10.0;330.0</additional_attributes>
@@ -348,10 +348,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1140</x>
-      <y>460</y>
-      <w>40</w>
-      <h>190</h>
+      <x>856</x>
+      <y>360</y>
+      <w>32</w>
+      <h>152</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;20.0;170.0</additional_attributes>
@@ -359,10 +359,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>830</x>
-      <y>590</y>
-      <w>100</w>
-      <h>120</h>
+      <x>608</x>
+      <y>464</y>
+      <w>80</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;100.0</additional_attributes>
@@ -370,10 +370,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>790</x>
-      <y>590</y>
-      <w>140</w>
-      <h>230</h>
+      <x>576</x>
+      <y>464</y>
+      <w>112</w>
+      <h>184</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;120.0;210.0</additional_attributes>
@@ -381,10 +381,10 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>90</y>
-      <w>40</w>
-      <h>50</h>
+      <x>568</x>
+      <y>64</y>
+      <w>32</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;20.0;30.0</additional_attributes>
@@ -392,12 +392,42 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>90</y>
-      <w>30</w>
-      <h>180</h>
+      <x>440</x>
+      <y>64</y>
+      <w>24</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>904</x>
+      <y>232</y>
+      <w>200</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Silvally
+--
+
+--
+
++ Silvally(int, String) : constrtor
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>992</x>
+      <y>168</y>
+      <w>24</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
   </element>
 </diagram>
