@@ -85,28 +85,32 @@ public abstract class Pokemon
 	/**
 	 * @return the canEvolve
 	 */
-	public boolean isCanEvolve() {
+	public boolean isCanEvolve() 
+	{
 		return canEvolve;
 	}
 
 	/**
 	 * @param healthPoints the healthPoints to set
 	 */
-	public void setHealthPoints(int healthPoints) {
+	public void setHealthPoints(int healthPoints) 
+	{
 		this.healthPoints = healthPoints;
 	}
 
 	/**
 	 * @param attackPoints the attackPoints to set
 	 */
-	public void setAttackPoints(int attackPoints) {
+	public void setAttackPoints(int attackPoints) 
+	{
 		this.attackPoints = attackPoints;
 	}
 
 	/**
 	 * @param enhancementModifier the enhancementModifier to set
 	 */
-	public void setEnhancementModifier(double enhancementModifier) {
+	public void setEnhancementModifier(double enhancementModifier) 
+	{
 		this.enhancementModifier = enhancementModifier;
 	}
 
