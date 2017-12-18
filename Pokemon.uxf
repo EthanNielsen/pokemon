@@ -17,7 +17,7 @@
 + actionAstonish() : Void
 --
 
-
+bg=#0000ff
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -92,6 +92,7 @@ Methods/Constructors</panel_attributes>
 + punishmentCode(int) : boolean
 + takeDown() : String
 --
+bg=#D3D3D3
 
 
 </panel_attributes>
@@ -137,8 +138,8 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>992</x>
-      <y>128</y>
+      <x>920</x>
+      <y>304</y>
       <w>200</w>
       <h>88</h>
     </coordinates>
@@ -149,6 +150,7 @@ Methods/Constructors</panel_attributes>
 
 + Synthetic(int, String) : constrtor
 
+bg=#D3D3D3
 
 </panel_attributes>
     <additional_attributes/>
@@ -156,7 +158,7 @@ Methods/Constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>448</x>
+      <x>424</x>
       <y>440</y>
       <w>200</w>
       <h>72</h>
@@ -169,47 +171,47 @@ Methods/Constructors</panel_attributes>
 + actionKinesis(int) : String
 --
 
-
+bg=#EE82EE
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>632</x>
+      <x>648</x>
       <y>168</y>
-      <w>56</w>
+      <w>40</w>
       <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>30.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>992</x>
-      <y>208</y>
-      <w>48</w>
-      <h>64</h>
+      <x>936</x>
+      <y>224</y>
+      <w>64</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>40.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>60.0;10.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>936</x>
       <y>72</y>
-      <w>24</w>
-      <h>200</h>
+      <w>64</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;230.0</additional_attributes>
+    <additional_attributes>10.0;10.0;60.0;90.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>672</x>
+      <x>656</x>
       <y>440</y>
       <w>200</w>
       <h>88</h>
@@ -221,31 +223,31 @@ Methods/Constructors</panel_attributes>
 
 + Mewtwo(int, String) : constrtor
 
-
+bg=#EE82EE
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>688</x>
+      <x>672</x>
       <y>400</y>
-      <w>24</w>
+      <w>40</w>
       <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>30.0;10.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>640</x>
+      <x>616</x>
       <y>464</y>
-      <w>48</w>
+      <w>56</w>
       <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -262,14 +264,14 @@ Methods/Constructors</panel_attributes>
 
 + Mr.Mime(int, String) : constrtor
 
-
+bg=#EE82EE
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
+      <x>456</x>
       <y>128</y>
       <w>200</w>
       <h>88</h>
@@ -281,14 +283,14 @@ Methods/Constructors</panel_attributes>
 
 + Giratina(int, String) : constrtor
 
-
+bg=#0000ff
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
+      <x>408</x>
       <y>232</y>
       <w>200</w>
       <h>88</h>
@@ -300,70 +302,70 @@ Methods/Constructors</panel_attributes>
 
 + Palossand(int, String) : constrtor
 
-
+bg=#0000ff
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>632</x>
+      <x>600</x>
       <y>272</y>
-      <w>56</w>
+      <w>88</w>
       <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>664</x>
+      <x>856</x>
       <y>400</y>
       <w>32</w>
       <h>200</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>20.0;10.0;10.0;230.0</additional_attributes>
+    <additional_attributes>10.0;10.0;20.0;230.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>552</x>
       <y>504</y>
-      <w>112</w>
+      <w>136</w>
       <h>104</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;120.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;150.0;110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>568</x>
       <y>104</y>
-      <w>32</w>
+      <w>48</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;20.0;30.0</additional_attributes>
+    <additional_attributes>10.0;10.0;40.0;30.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
+      <x>408</x>
       <y>104</y>
-      <w>24</w>
+      <w>56</w>
       <h>144</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+    <additional_attributes>50.0;10.0;10.0;160.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>880</x>
-      <y>256</y>
+      <x>920</x>
+      <y>144</y>
       <w>200</w>
       <h>88</h>
     </coordinates>
@@ -374,6 +376,7 @@ Methods/Constructors</panel_attributes>
 
 + Silvally(int, String) : constrtor
 
+bg=#D3D3D3
 
 </panel_attributes>
     <additional_attributes/>
@@ -382,11 +385,11 @@ Methods/Constructors</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>864</x>
-      <y>176</y>
-      <w>128</w>
-      <h>96</h>
+      <y>168</y>
+      <w>72</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;140.0;100.0</additional_attributes>
+    <additional_attributes>10.0;20.0;70.0;10.0</additional_attributes>
   </element>
 </diagram>
