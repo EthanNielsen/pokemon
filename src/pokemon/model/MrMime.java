@@ -15,7 +15,7 @@ public class MrMime extends Pokemon implements Psychic
 
 	public void actionGravity()
 	{
-		
+		System.out.print("Ogon po gotovnosti!");
 	}
 	
 	public String actionKinesis(int ammount)

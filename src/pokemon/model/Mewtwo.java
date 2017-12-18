@@ -15,7 +15,7 @@ public class Mewtwo extends Pokemon implements Psychic
 
 	public void actionGravity()
 	{
-		
+		System.out.print("Blaaaa");
 	}
 	
 	public String actionKinesis(int ammount)

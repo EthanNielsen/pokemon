@@ -20,7 +20,7 @@ public class Giratina extends Pokemon implements Ghost
 	
 	public void actionAstonish()
 	{
-		
+		System.out.print("Astonishing!");
 	}
 	
 }

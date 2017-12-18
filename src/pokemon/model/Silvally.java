@@ -10,7 +10,7 @@ public class Silvally extends Pokemon implements Null
 	
 	public void crushClaw()
 	{
-		
+		System.out.print("Crumble");
 	}
 	
 	public boolean punishmentCode(int amount)
