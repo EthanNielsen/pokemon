@@ -5,7 +5,7 @@ public class Giratina extends Pokemon implements Ghost
 
 	public Giratina()
 	{
-		super(487, "Giratina")
+		super(487, "Giratina");
 		setup();
 	}
 	

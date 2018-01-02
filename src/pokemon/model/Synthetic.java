@@ -3,6 +3,18 @@ package pokemon.model;
 public class Synthetic extends Silvally implements Null
 {
 	
+	public Synthetic() // Constroctor
+	{
+		super(772, "Synthetic");
+		setup();
+	}
+	
+	public Synthetic(String name)
+	{
+		super(772, name);
+		setup();
+	}
+	
 	public Synthetic(int number, String name)
 	{
 		super(number, name);
@@ -23,4 +35,11 @@ public class Synthetic extends Silvally implements Null
 		return "I'll take down your code with me....";
 	}
 	
+	protected void setup() // Methods
+	{
+		this.setAttackPoints(95);
+		this.setCanEvolve(true);
+		this.setEnhancementModifier(.95);
+		this.setHealthPoints(95);
+	}
 }

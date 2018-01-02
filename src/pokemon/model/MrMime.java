@@ -3,6 +3,18 @@ package pokemon.model;
 public class MrMime extends Pokemon implements Psychic
 {
 
+	public MrMime()
+	{
+		super(122, "Mr. Mime");
+		setup();
+	}
+	
+	public MrMime(String name)
+	{
+		super(122, name);
+		setup();
+	}
+	
 	public MrMime(int number, String name)
 	{
 		super(number, name);
@@ -22,4 +34,13 @@ public class MrMime extends Pokemon implements Psychic
 	{
 		return "Mr. Mime!";
 	}
+	
+	protected void setup()
+	{
+		this.setAttackPoints(45);
+		this.setCanEvolve(false);
+		this.setEnhancementModifier(.01);
+		this.setHealthPoints(40);
+	}
+	
 }
