@@ -4,9 +4,11 @@ package pokemon.controller;
 import pokemon.model.Pokemon;
 import java.util.List;
 import java.util.ArrayList;
+import pokemon.view.PokemonFrame;
+
 
 public class PokemonController 
-{
+{	
 	private List<Pokemon> pokedex;
 	
 	public List<Pokemon> getPokedex()
@@ -24,8 +26,4 @@ public class PokemonController
 		return false;
 	}
 	
-	public List<Pokemon> getsetupPanel()
-	{
-		return pokedex;
-	}
 }

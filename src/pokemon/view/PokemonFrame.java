@@ -1,5 +1,6 @@
 package pokemon.view;
 
-public class PokemonFrame {
+public class PokemonFrame 
+{
 
 }
