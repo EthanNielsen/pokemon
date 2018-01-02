@@ -3,7 +3,7 @@ package pokemon.model;
 public class Synthetic extends Silvally implements Null
 {
 	
-	public Synthetic() // Constroctor
+	public Synthetic()
 	{
 		super(772, "Synthetic");
 		setup();
@@ -35,7 +35,7 @@ public class Synthetic extends Silvally implements Null
 		return "I'll take down your code with me....";
 	}
 	
-	protected void setup() // Methods
+	protected void setup()
 	{
 		this.setAttackPoints(95);
 		this.setCanEvolve(true);
