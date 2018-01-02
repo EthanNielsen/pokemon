@@ -51,8 +51,6 @@ public class PokedexPanel extends JPanel
 		attackField.setText(appController.getPokedex().get(index).getAttackPoints() + "");
 		healthField.setText(appController.getPokedex().get(index).getHealthPoints() + "");
 		modifierField.setText(appController.getPokedex().get(index).getEnhancementModifier() + "");
-		
-		
 	}
 
 }
