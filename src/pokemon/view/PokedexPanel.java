@@ -43,6 +43,47 @@ public class PokedexPanel extends JPanel
 	private JPanel thirdType;
 	private JPanel fourthType;
 	
+	
+	public PokedexPanel(PokemonController appController)
+	{
+		super();
+		this.appController = appController;
+		
+		healthLabel = new JLabel();
+		attackLabel = new JLabel();
+		nameLabel = new JLabel();
+		numberLabel = new JLabel();
+		evolvableLabel = new JLabel();
+		modifierLabel = new JLabel();
+		iconLabel = new JLabel();
+		
+		evolvableBox = new JCheckBox();
+		nameField = new JTextField();
+		numberField = new JTextField();
+		attackField = new JTextField();
+		healthField = new JTextField();
+		modifierField = new JTextField();
+		
+		descriptionArea = new JTextArea();
+		typeArea = new JTextArea();
+		
+		saveButton = new JButton();
+		clearButton = new JButton();
+		pokedexDropdown = new JComboBox();
+		
+		firstType = new JPanel();
+		secondType = new JPanel();
+		thirdType = new JPanel();
+		fourthType = new JPanel();
+	}
+	
+	private void setupPanel()
+	{
+		this.add(healthLabel);
+		
+	}
+	
+	
 	private void updatePokedexInfo(int index)
 	{
 		nameField.setText(appController.getPokedex().get(index).getName());
