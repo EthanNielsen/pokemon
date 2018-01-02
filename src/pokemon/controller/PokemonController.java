@@ -23,4 +23,9 @@ public class PokemonController
 	{
 		return false;
 	}
+	
+	public List<Pokemon> getsetupPanel()
+	{
+		return pokedex;
+	}
 }
