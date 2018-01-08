@@ -1,5 +1,9 @@
 package pokemon.view;
 
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -141,6 +145,37 @@ public class PokedexPanel extends JPanel
 	
 	private void updateTypePanels()
 	{
+		String[] types = appController.getPokedex().get(pokedexDropdown.getSelectedIndex()).getPokemonTypes();
+		
+		if (types[0].equals("Ghost"))
+		{
+			firstType.setBackground(Color.BLACK);
+		}
+		else if (types[0].equals("Null"))
+		{
+			firstType.setBackground(Color.GRAY);
+		}
+		else if (types[0].equals("Psychic"))
+		{
+			firstType.setBackground(Color.CYAN);
+		}
+		
+		if (types.length > 1)
+		{
+			if (types[1].equals("Null"))
+			{
+				secondType.setBackground(Color.GRAY);
+			}
+			
+			if (types[2].equals("Null"))
+			{
+				if(types[2].equals("Null"))
+				{
+					thirdType.setBackground(Color.BLACK);
+				}
+			}
+			
+		}
 		
 	}
 	
@@ -151,7 +186,17 @@ public class PokedexPanel extends JPanel
 	
 	private void setupListeners()
 	{
-		
+		pokedexDropdown.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent selection)
+			{
+				int selectedPokemonIndex = pokedexDropdown.getSelectedIndex();
+				updatePokedexInfo(selectedPokemonIndex);
+				updateImage();
+				updateTypePanels();
+				repaint();
+			}
+		});
 	}
 	
 	
