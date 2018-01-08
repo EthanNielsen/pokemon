@@ -133,17 +133,12 @@ public class PokedexPanel extends JPanel
 		fourthType.setSize(50, 50);	
 	}
 	
-	private void setupPanel()
-	{
-		
-	}
-	
 	private void updateImage()
 	{
 		
 	}
 	
-	// This gets the types of the Pokemon and sets the background color to corispond with the their type.
+	// This gets the types of the Pokemon and sets the background color to correspond with the their type.
 	private void updateTypePanels()
 	{
 		String[] types = appController.getPokedex().get(pokedexDropdown.getSelectedIndex()).getPokemonTypes();
@@ -224,7 +219,6 @@ public class PokedexPanel extends JPanel
 				fourthType.setBackground(Color.YELLOW);
 			}
 		}
-		
 	}
 	
 	private void setupLayout()

@@ -16,7 +16,7 @@ public abstract class Pokemon
 	}
 	
 	// Returns all the types like poison, fighting, etc... based on the Pokemon chosen.
-	public final String[] getPokemonTyples()
+	public final String[] getPokemonTypes()
 	{
 		Class<?> [] types = getClass().getInterfaces();
 		String [] pokeTypes = new String[types.length];
