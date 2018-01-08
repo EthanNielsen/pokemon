@@ -65,11 +65,6 @@ public class PokedexPanel extends JPanel
 		evolvableLabel = new JLabel();
 		modifierLabel = new JLabel();
 		iconLabel = new JLabel();
-		
-		iconLabel_1 = new JLabel("", new ImageIcon(getClass().getResource("/pokemon/view/images/Pokeball.png")), JLabel.CENTER);
-		iconLabel_1.setBackground(Color.CYAN);
-		
-		evolvableBox = new JCheckBox();
 		nameField = new JTextField();
 		numberField = new JTextField();
 		attackField = new JTextField();
@@ -99,9 +94,6 @@ public class PokedexPanel extends JPanel
 		this.add(numberLabel);
 		this.add(evolvableLabel);
 		this.add(modifierLabel);
-		this.add(iconLabel_1);
-		
-		this.add(evolvableBox);
 		this.add(nameField);
 		this.add(numberField);
 		this.add(attackField);
@@ -119,6 +111,14 @@ public class PokedexPanel extends JPanel
 		this.add(secondType);
 		this.add(thirdType);
 		this.add(fourthType);
+		
+		evolvableBox = new JCheckBox();
+		
+		this.add(evolvableBox);
+		
+		iconLabel_1 = new JLabel("", new ImageIcon(getClass().getResource("/pokemon/view/images/Pokeball.png")), JLabel.CENTER);
+		iconLabel_1.setBackground(Color.CYAN);
+		this.add(iconLabel_1);
 	}
 	
 	private void setupComboBox()
