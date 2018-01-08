@@ -143,6 +143,7 @@ public class PokedexPanel extends JPanel
 		
 	}
 	
+	// This gets the types of the Pokemon and sets the background color to corispond with the their type.
 	private void updateTypePanels()
 	{
 		String[] types = appController.getPokedex().get(pokedexDropdown.getSelectedIndex()).getPokemonTypes();
@@ -159,22 +160,69 @@ public class PokedexPanel extends JPanel
 		{
 			firstType.setBackground(Color.CYAN);
 		}
+		else
+		{
+			firstType.setBackground(Color.RED);
+		}
 		
 		if (types.length > 1)
 		{
-			if (types[1].equals("Null"))
+			if (types[1].equals("Ghost"))
 			{
 				secondType.setBackground(Color.GRAY);
 			}
-			
-			if (types[2].equals("Null"))
+			else if (types[1].equals("Null"))
 			{
-				if(types[2].equals("Null"))
-				{
-					thirdType.setBackground(Color.BLACK);
-				}
+				secondType.setBackground(Color.LIGHT_GRAY);
 			}
-			
+			else if (types[1].equals("Psychic"))
+			{
+				secondType.setBackground(Color.BLACK);
+			}
+			else
+			{
+				secondType.setBackground(Color.RED);
+			}
+		}
+		
+		if (types.length == 3)
+		{
+			if (types[2].equals("Ghost"))
+			{
+				thirdType.setBackground(Color.GREEN);
+			}
+			else if (types[2].equals("Null"))
+			{
+				thirdType.setBackground(Color.BLUE);
+			}
+			else if (types[2].equals("Psychic"))
+			{
+				thirdType.setBackground(Color.RED);
+			}
+			else
+			{
+				thirdType.setBackground(Color.WHITE);
+			}
+		}
+		
+		if (types.length == 4)
+		{
+			if (types[3].equals("Ghost"))
+			{
+				fourthType.setBackground(Color.WHITE);
+			}
+			else if (types[3].equals("Null"))
+			{
+				fourthType.setBackground(Color.RED);
+			}
+			else if (types[3].equals("Psychic"))
+			{
+				fourthType.setBackground(Color.MAGENTA);
+			}
+			else
+			{
+				fourthType.setBackground(Color.YELLOW);
+			}
 		}
 		
 	}
