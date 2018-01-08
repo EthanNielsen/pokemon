@@ -43,6 +43,20 @@ public class PokemonController
 		pokedex.add(new Silvally());
 		pokedex.add(new Synthetic());
 	}
+	
+	// This is a loop to go in and process everything in the list. Makes a String array as big as my list.
+	public String [] convertPokedex()
+	{
+		String [] names = new String [pokedex.size()];
+		
+		for (int index = 0; index < pokedex.size(); index++)
+		{
+			names[index] = pokedex.get(index).getName();
+		}
+		
+		return names;
+	}
+	
 	public boolean isValidInteger(String input)
 	{
 		return false;

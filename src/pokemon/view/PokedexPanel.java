@@ -1,5 +1,7 @@
 package pokemon.view;
 
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
@@ -49,6 +51,8 @@ public class PokedexPanel extends JPanel
 		super();
 		this.appController = appController;
 		
+		appLayout = new SpringLayout();
+		
 		healthLabel = new JLabel();
 		attackLabel = new JLabel();
 		nameLabel = new JLabel();
@@ -56,6 +60,8 @@ public class PokedexPanel extends JPanel
 		evolvableLabel = new JLabel();
 		modifierLabel = new JLabel();
 		iconLabel = new JLabel();
+		
+		iconLabel = new JLabel("", new ImageIcon(getClass().getResource("/pokemon/view/images/Pokeball.png")), JLabel.CENTER);
 		
 		evolvableBox = new JCheckBox();
 		nameField = new JTextField();
@@ -75,6 +81,8 @@ public class PokedexPanel extends JPanel
 		secondType = new JPanel();
 		thirdType = new JPanel();
 		fourthType = new JPanel();
+		
+		setupPanel();
 	}
 	
 	private void setupPanel()
@@ -105,6 +113,45 @@ public class PokedexPanel extends JPanel
 		this.add(secondType);
 		this.add(thirdType);
 		this.add(fourthType);
+	}
+	
+	private void setupComboBox()
+	{
+		DefaultComboBoxModel pokemonModel = new DefaultComboBoxModel(appController.convertPokedex());
+		pokedexDropdown.setModel(pokemonModel);
+	}
+	
+	private void setupTypePanels()
+	{
+		firstType.setSize(50, 50);
+		secondType.setSize(50, 50);
+		thirdType.setSize(50, 50);
+		fourthType.setSize(50, 50);	
+	}
+	
+	private void setupPanel()
+	{
+		
+	}
+	
+	private void updateImage()
+	{
+		
+	}
+	
+	private void updateTypePanels()
+	{
+		
+	}
+	
+	private void setupLayout()
+	{
+		
+	}
+	
+	private void setupListeners()
+	{
+		
 	}
 	
 	
