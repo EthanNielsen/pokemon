@@ -77,8 +77,8 @@ public class PokedexPanel extends JPanel
 		appLayout.putConstraint(SpringLayout.NORTH, modifierField, 6, SpringLayout.SOUTH, attackField);
 		appLayout.putConstraint(SpringLayout.EAST, modifierField, 0, SpringLayout.EAST, numberField);
 		
-		descriptionArea = new JTextArea();
-		typeArea = new JTextArea();
+		descriptionArea = new JTextArea(5, 10);
+		typeArea = new JTextArea(4, 15);
 		
 		saveButton = new JButton();
 		appLayout.putConstraint(SpringLayout.WEST, healthField, 41, SpringLayout.EAST, saveButton);
