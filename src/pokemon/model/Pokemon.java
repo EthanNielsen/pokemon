@@ -38,8 +38,19 @@ public abstract class Pokemon
 					parentType.add(currentInterface);
 				}
 			}
+			
+			currentClass = currentClass.getSuperclass();
+			
 		}
-		return pokeTypes;
+		
+		types = new String [parentType.size()];
+		
+		for(int index = 0; index < parentType.size(); index++) 
+		{
+			types[index] = parentType.get(index);
+		}
+		
+		return types;
 	}
 	
 	// Is what the Pokemon will say to the user, it will state its health.
