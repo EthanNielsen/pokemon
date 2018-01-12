@@ -4,14 +4,30 @@ import pokemon.controller.PokemonController;
 
 public class PokemonFrame 
 {
-	private PokemonController pokemonController;
-	private PokedexPanel pokemonPanel;
+	private PokemonController appController;
+	private PokedexPanel appPanel;
 	
 	
-	public PokemonFrame(PokemonController pokemonController)
+	public PokemonFrame(PokemonController appController)
 	{
 		super();
-		this.pokemonController = pokemonController;
+		this.appController = appController;
+		appPanel = new PokedexPanel(appController);
 		
+//		setupFrame();
 	}
-}
+	
+	public PokemonController getBaseController()
+	{
+		return appController;
+	}
+	
+//	private void setupFrame()
+//	{
+//		this.setContentPane(appPanel);
+//		this.setTitle("Pokemon App");
+//		this.setResizable(false);
+//		this.setSize(600, 600);
+//		this.setVisible(true);
+//	}
+//}
