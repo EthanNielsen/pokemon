@@ -30,4 +30,5 @@ public class PokemonFrame
 //		this.setSize(600, 600);
 //		this.setVisible(true);
 //	}
-//}
+	
+}
