@@ -30,7 +30,7 @@ public class PokemonController
 	
 	public List<Pokemon> getPokedex()
 	{
-		return getPokedex();
+		return pokedex;
 	}
 	
 	private void buildPokedex()
