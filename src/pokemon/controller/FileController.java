@@ -10,6 +10,8 @@ import pokemon.model.Pokemon;
 
 public class FileController 
 {
+	// This is how to read and write a file in Java.
+	
 	public static void savePokemonToFile(ArrayList<Pokemon> pokedex)
 	{
 		File saveFile = new File("Saved Pokedex.txt");
