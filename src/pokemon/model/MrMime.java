@@ -5,7 +5,7 @@ public class MrMime extends Pokemon implements Psychic
 
 	public MrMime()
 	{
-		super(122, "Mr. Mime");
+		super(122, "MrMime");
 		setup();
 	}
 	
@@ -32,7 +32,7 @@ public class MrMime extends Pokemon implements Psychic
 	
 	public String actionKinesis(int ammount)
 	{
-		return "Mr. Mime!";
+		return "MrMime!";
 	}
 	
 	protected void setup()
