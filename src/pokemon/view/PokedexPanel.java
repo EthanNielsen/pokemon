@@ -225,7 +225,7 @@ public class PokedexPanel extends JPanel
 				fourthType.setBackground(Color.YELLOW);
 			}
 		}
-	}
+	}	
 	
 	private void setupLayout()
 	{
@@ -319,7 +319,29 @@ public class PokedexPanel extends JPanel
 				repaint();
 			}
 		});
+		
+		// This code 
+		saveButton.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent click)
+			{
+				if(appController.isValidInteger(attackField.getText()) && appController.isValidInteger(healthField.getText()) && appController.isValidDouble(modifierField.getText()))
+				{
+					int selected = pokedexDropdown.getSelectedIndex();
+					int health = Integer.parseInt(healthField.getText());
+					int attack = Integer.parseInt(attackField.getText());
+					double modifier = Double.parseDouble(modifierField.getText());
+					String name = nameField.getText();
+					boolean evolvable = evolvableBox.isSelected();
+					
+					//Send to the Controller to modify the Pokemon
+					appController.updateSelected(selected, health, attack, evolvable, modifier, name);
+				}
+			}
+		});
 	}
+	
+	
 	
 	
 	private void updatePokedexInfo(int index)

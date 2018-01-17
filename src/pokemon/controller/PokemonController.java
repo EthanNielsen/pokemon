@@ -67,7 +67,7 @@ public class PokemonController
 		return false;
 	}
 	
-	public boolean isValiduble(String input)
+	public boolean isValidDouble(String input)
 	{
 		return false;
 	}
