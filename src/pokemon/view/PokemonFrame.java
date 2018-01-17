@@ -1,8 +1,10 @@
 package pokemon.view;
 
+import javax.swing.JFrame;
+
 import pokemon.controller.PokemonController;
 
-public class PokemonFrame 
+public class PokemonFrame extends JFrame
 {
 	private PokemonController appController;
 	private PokedexPanel appPanel;
@@ -14,7 +16,7 @@ public class PokemonFrame
 		this.appController = appController;
 		appPanel = new PokedexPanel(appController);
 		
-//		setupFrame();
+		setupFrame();
 	}
 	
 	public PokemonController getBaseController()
@@ -22,13 +24,13 @@ public class PokemonFrame
 		return appController;
 	}
 	
-//	private void setupFrame()
-//	{
-//		this.setContentPane(appPanel);
-//		this.setTitle("Pokemon App");
-//		this.setResizable(false);
-//		this.setSize(600, 600);
-//		this.setVisible(true);
-//	}
+	private void setupFrame()
+	{
+		this.setContentPane(appPanel);
+		this.setTitle("Pokemon App");
+		this.setResizable(false);
+		this.setSize(600, 600);
+		this.setVisible(true);
+	}
 	
 }

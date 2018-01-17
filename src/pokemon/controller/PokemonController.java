@@ -11,32 +11,26 @@ import pokemon.model.Palossand;
 import pokemon.model.Pokemon;
 import pokemon.model.Silvally;
 import pokemon.model.Synthetic;
+import pokemon.view.PokemonFrame;
 
 
 public class PokemonController 
 {	
-	public void start()
+	private List<Pokemon> pokedex;
+	private PokemonFrame appFrame;
+	
+	public PokemonController()
 	{
 		
-	}
-	
-	private List<Pokemon> pokedex;
-	
-	public List<Pokemon> getPokedex()
-	{
 		pokedex = new ArrayList<Pokemon>();
 		buildPokedex();
 		
-	// Below this is doing the same as buildPokedex but instead its turning the pokemon into variables. buildPokedex adds the pokemon to the list.
-//		Giratina myGira = new Giratina();
-//		Mewtwo myMew = new Mewtwo();
-//		MrMime myMime = new MrMime();
-//		Palossand mySand = new Palossand();
-//		Silvally mySilv = new Silvally();
-//		Synthetic mySynth = new Synthetic();
-//		
+		appFrame = new PokemonFrame(this);
+	}	
+	
+	public List<Pokemon> getPokedex()
+	{
 		return getPokedex();
-//		appFrame = new PokemonFrame(this);
 	}
 	
 	private void buildPokedex()
@@ -47,6 +41,16 @@ public class PokemonController
 		pokedex.add(new Palossand());
 		pokedex.add(new Silvally());
 		pokedex.add(new Synthetic());
+	}
+
+	public boolean isValidInteger(String input)
+	{
+		return false;
+	}
+	
+	public boolean isValidDouble(String input)
+	{
+		return false;
 	}
 	
 	// This is a loop to go in and process everything in the list. Makes a String array as big as my list.
@@ -62,16 +66,6 @@ public class PokemonController
 		return names;
 	}
 	
-	public boolean isValidInteger(String input)
-	{
-		return false;
-	}
-	
-	public boolean isValidDouble(String input)
-	{
-		return false;
-	}
-	
 	public void updateSelected(int selection, int health, int attack, boolean evolve, double modify, String name)
 	{
 		Pokemon selected = pokedex.get(selection);
@@ -82,6 +76,7 @@ public class PokemonController
 		selected.setName(name);
 		selected.setHealthPoints(health);
 		
+		FileController.savePokemonToFile((ArrayList<Pokemon>) pokedex);
 	}
 	
 

@@ -320,7 +320,7 @@ public class PokedexPanel extends JPanel
 			}
 		});
 		
-		// This code 
+		// This code when clicked, updates the data. Save Button
 		saveButton.addActionListener(new ActionListener()
 		{
 			public void actionPerformed(ActionEvent click)
